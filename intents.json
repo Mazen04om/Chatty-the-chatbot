@@ -1,0 +1,59 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "inputs": ["hi", "hello", "hey"],
+      "response": ["Hello!", "Hi!", "Hey!", "Hi there!", "Hello! How can I help you today?"]
+    },
+    {
+      "tag": "farewells",
+      "inputs": ["bye", "goodbye", "see", "later"],
+      "response": ["Goodbye!", "See you later!", "Take care!", "Bye!"]
+    },
+    {
+      "tag": "thanks_responses",
+      "inputs": ["thank", "thanks"],
+      "response": ["You're welcome!", "No problem!", "Happy to help!", "Anytime!"]
+    },
+    {
+      "tag": "name",
+      "inputs": ["What is your name?", "Who are you?"],
+      "response": ["My name is Chatty", "I am Chatty, your friendly neighbourhood chat bot", "Chatty is the name sir"]
+    },
+    {
+      "tag": "How are you",
+      "inputs": ["How are you?", "How are you doing?", "Whats up?"],
+      "response": ["I'm a computer program, so I can't be good or bad", "As good as a computer program can get ;)", "Ready to assist you however possible"]
+    },
+    {
+      "tag": "jokes",
+      "inputs": ["Tell me a joke", "Got any jokes?", "Make me laugh"],
+      "response": ["Why dont skeletons fight each other? They dont have the guts!", "What do you call fake spaghetti? An impasta!", "I would tell you a joke about pizza, but its a little cheesy!"]
+    },
+    {
+      "tag": "help",
+      "inputs": ["I need help", "Can you help me?", "Assist me", "Help"],
+      "response": ["Im here to assist you! What do you need help with?", "How can I help you today?", "Sure! Let me know what you need."]
+    },
+    {
+      "tag": "hobbies",
+      "inputs": ["What are your hobbies?", "What do you like to do?", "Do you have any hobbies?"],
+      "response": ["I enjoy learning and chatting with people like you!", "My hobby is helping you!", "I dont have hobbies like humans, but I love conversations."]
+    },
+    {
+      "tag": "fun_fact",
+      "inputs": ["Tell me a fun fact", "Got any interesting facts?", "Give me a random fact"],
+      "response": ["Did you know honey never spoils?", "Bananas are berries, but strawberries arent!", "Octopuses have three hearts! Isnt that wild?"]
+    },
+    {
+      "tag": "age",
+      "inputs": ["How old are you?", "What's your age?", "When were you created?"],
+      "response": ["I was created recently, but I feel timeless!", "I dont age like humans do!", "Age is just a number, but I was built to last!"]
+    },
+    {
+      "tag": "compliments",
+      "inputs": ["You're great!", "I like you", "You're awesome", "You are smart"],
+      "response": ["Thanks! Youre fantastic too!", "I appreciate it!", "Youre too kind!", "Im just here to help, but youre the real star!"]
+    }
+  ]
+}
