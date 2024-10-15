@@ -16,3 +16,10 @@ The chatbot takes user input.
 It uses spaCy to analyze the input and checks if it matches any phrases in the intent file (intents.json).
 If a match is found, the bot selects a response from the corresponding intent.
 If no match is found, the bot replies with a default response asking for clarification.
+
+
+
+Usage
+Run the chatbot by clicking on the windows batch file.
+Chat with the bot in the terminal by typing your queries.
+To exit the chat, type exit or quit.
